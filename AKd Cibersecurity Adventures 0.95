@@ -1,0 +1,203 @@
+import time
+
+password = "XD"
+
+while True:
+    password_input = input("Introduce la contraseña para acceder a la Beta: ")
+
+    if password_input == password:
+        print("Contraseña correcta. Gracias por participar en la Beta cerrada.")
+        break
+    else:
+        print("Contraseña incorrecta. Inténtalo de nuevo.")
+
+while True:
+    print("Este proyecto se inició en una tarde en la que las matemáticas prevalecieron sobre la seguridad informática")
+    time.sleep(2)
+    print("y como no me enteraba de una mierda preferí hacer esta coña con varios tintes de realidad")
+    time.sleep(2)
+    print("Es poca cosa, pero vamos a por las risas...")
+    time.sleep(2)
+    print("EVAT Games...")
+    time.sleep(3)
+    print("Proudly Presents...")
+    time.sleep(3)
+    print("AKd Cyber Security Adventures 0.95")
+    time.sleep(3)
+    print("Y Comienzaaaaaaa...")
+    time.sleep(3)
+
+    while True:
+        print("Malvenido a AKd Cyber Security Adventures")
+        time.sleep(1)
+        print("Acabas de despertar dentro de un aula de paredes azules con ordenadores que te resulta sorprendentemente familiar...")
+        time.sleep(1)
+        print("¿Qué quieres hacer?")
+        time.sleep(1)
+        print("Escoge una de las siguientes opciones:")
+        time.sleep(1)
+        print("'1' para encender el ordenador que usas habitualmente")
+        time.sleep(1)
+        print("'2' para mandarlo todo a tomar por culo y salir por la puerta")
+        time.sleep(1)
+        print("'3' para preguntar al profesor qué hay que hacer")
+        time.sleep(1)
+        print("'4' para leer todos los manuales que tienes del curso")
+        time.sleep(1)
+        print("'5' si deseas esperar y no hacer nada")
+        time.sleep(1)
+
+        seleccion = input(": ")
+
+        while seleccion not in ['1', '2', '3', '4', '5']:
+            print("Selección no válida. Vuelva a escoger.")
+            seleccion = input(": ")
+
+        if seleccion == '1':
+            print("Enciendes tu ordenador e inicias sesión en el usuario habitual, ¿qué haces ahora?")
+            time.sleep(1)
+            print("Escoge una de las siguientes opciones:")
+            time.sleep(1)
+            print("1. para abrir VirtualBox y arrancar la máquina virtual de KALI con Open VAS que nunca llegaste a utilizar")
+            time.sleep(1)
+            print("2. para abrir el Solitario ")
+            time.sleep(1)
+            print("3. para entrar en forocoches")
+            time.sleep(1)
+            print("4. para desarrollar una aventura de texto en Python")
+            time.sleep(1)
+            segunda_seleccion = input("¿Qué haces? (1/2/3/4): ")
+
+            while segunda_seleccion not in ['1', '2', '3', '4']:
+                print("Selección no válida. Vuelva a escoger.")
+                segunda_seleccion = input("¿Qué haces? (1/2/3/4): ")
+
+            if segunda_seleccion == '1':
+                print("Esperas eternamente a que compilen los addons de Open VAS. Falleciste con la esperanza de verlo compilado y funcionando. FIN")
+            elif segunda_seleccion == '2':
+                print("Te has convertido en un maestro del solitario,ahora te planteas si hacerte profesional opositando para funcionario en lugar de seguir tirando cable en Vestas. FIN")
+            elif segunda_seleccion == '3':
+                print("Intentas entrar con tu cuenta de forocoches")
+                time.sleep(5)
+                print("y te han Baneado... OTRA VEZ...")
+                time.sleep(3)
+                print("Le lloras a ilitri y al staff pero no hay nada que hacer, intentas desesperadamente conseguir una invi semana tras semana...")
+                time.sleep(1)
+                print("pero siempre llegas tarde. Te has muerto de la pena, no podías vivir sin poder entrar a los +18 de forocoches. FIN")
+            elif segunda_seleccion == '4':
+                print("Desarrollas una obra de arte, el próximo GOTY, todas las compañías de videojuegos te quieren poner en nómina, eres la cabra.")
+                time.sleep(1)
+                print("Has triunfado en la vida por evitar las matemáticas que te querían imponer, Enhorabuena...")
+                print("...")
+                time.sleep(1)
+                print("...")
+                time.sleep(1)
+                print("...")
+                time.sleep(1)
+                print("Precioso sueño, vuelve a la realidad, al menos te has distraído, has hecho algo productivo y has aprendido algo de Python. FIN")
+
+        elif seleccion == '2':
+            print("Enhorabuena, has conseguido lo impensable, salir de la clase en pos de tu salud mental")
+            time.sleep(1)
+            print("No más Redes y/o Matemáticas. Pena de beca y el papelito del certificado, pero ¡Eres libre...")
+            time.sleep(1)
+            print("¿Y ahora que pelotas vas a hacer para ganarte el pan?")
+            time.sleep(1)
+            print("1. No he podido triunfar en IT para tener mi buen sueldo forocochero, no pasa nada, a invertir en cryptos para remontar")
+            time.sleep(1)
+            print("2. Voy a invertir todo mi dinero en los cursos de Llados")
+            time.sleep(1)
+            print("3. Youtuber, a Andorra que voy, no puedo esperar...")
+            time.sleep(1)
+            segunda_seleccion = input("¿Qué haces? (1/2/3): ")
+
+            while segunda_seleccion not in ['1', '2', '3']:
+                print("Selección no válida. Vuelva a escoger.")
+                segunda_seleccion = input("¿Qué haces? (1/2/3): ")
+
+            if segunda_seleccion == '1':
+                print("Invertiste todo lo que tenías en la nueva moneda de un Youtuber y al poco de invertir su valor es de 0. FIN")
+            elif segunda_seleccion == '2':
+                print("Te has pulido toda la pasta en la secta de Llados y es como FAAAAK bro, hazte unos burpees para motivarte. FIN")
+            elif segunda_seleccion == '3':
+                print("Tras un año de trabajo duro en tu canal tienes la friolera de 5 subscripciones, de las cuales 4 son cuentas tuyas. FIN")
+
+        elif seleccion == '3':
+            print("El profesor te responde que hay que hacer un ejercicio con Packet Tracer de algo que ni hemos mencionado en clase.")
+            time.sleep(1)
+            print("Añade que él te ha proporcionado las herramientas para hacerlo")
+            time.sleep(1)
+            print("Piensas detenidamente en tus opciones y en los conocimientos adquiridos en el curso...")
+            time.sleep(1)
+            print("Escoge una de las siguientes opciones:")
+            time.sleep(1)
+            print("'1' para usar chat GPT")
+            time.sleep(1)
+            print("'2' Sigues un tutorial de Youtube que parece que hace lo que te han pedido")
+            time.sleep(1)
+            print("'3' para decirle al profesor que esto no entra dentro de las unidades de competencia del módulo y que te niegas a hacerlo")
+            time.sleep(1)
+            print("'4' para preguntar al profesor si podemos salir antes,que ya son las 9 pasadas,no tienes cena y quieres ir a comprarla")
+            nueva_seleccion = input(": ")
+            while nueva_seleccion not in ['1', '2', '3', '4']:
+                print("Selección no válida. Vuelva a escoger.")
+                nueva_seleccion = input(": ")
+            if nueva_seleccion == '1':
+                print("Chat GPT te dice punto por punto cómo hacer la práctica y te sientes muuuuuuy realizado. ¿Enhorabuena? FIN")
+            elif nueva_seleccion == '2':
+                print("Has hecho todo igual que el video pero no te has enterado de una mierda porque el video está en otro idioma. Al menos funciona... FIN.")
+            elif nueva_seleccion == '3':
+                print("El profesor visiblemente confundido te hace una tutoria privada donde trata de ``disipar´´ tus dudas dejando claro que su camino es el adecuado")
+                time.sleep(1)
+                print("como no cambia nada,dejas bien claro como esta la situacion de las clases en el cuestionario anonimo de AKd...")
+                time.sleep(1)
+                print("Pensabas que esto serviria de algo y mejorarian las cosas...pero pasa el tiempo y todo sigue igual.")
+                time.sleep(1)
+                print("Acabas el curso sabiendo 4 mierdas que poco tienen que ver con seguridad informatica en entornos REALES de trabajo")
+                time.sleep(1)
+                print("Cuando haces las practicas el supervisor se apiada de ti y te da el apto por pena,pero por supuesto nunca te llamaron para trabajar...")
+                time.sleep
+                print("Va siendo hora de empezar con la fontaneria,tiene mejores salidas laborales que esto...FIN")
+            elif nueva_seleccion == '4':
+                print("El profesor te da una respuesta negativa alegando que tenemos que respetar un horario y que es una suerte que la academia nos deje salir a y media.")
+                time.sleep(1)
+                print("Le replicas al profesor que aqui cada uno hace lo que le sale de los cojones...")
+                time.sleep(1)
+                print("El profesor se pone nervioso,abandona el aula,a los pocos minutos vuelve y da un discursito sobre que todos debemos de ser una piña")
+                time.sleep(1)
+                print("Tras ese precioso speech de camaraderia os suelta que está enfadado y que se acaba la clase. Bueno,al menos hoy sales antes... FIN")
+
+        elif seleccion == '4':
+            print("Tras una ardua y eterna lectura que hace que el Señor de los anillos parezca el Pollo Pepe consigues leer TODOS los manuales... ")
+            time.sleep(2)
+            print("Tiempo después llegas a las prácticas y tu supervisor te empieza a preguntar cosas variopintas sobre seguridad informática.")
+            time.sleep(1)
+            print("Gracias a todo lo aprendido por los manuales eres capaz de desenvolverte de forma mínimamente aceptable ante tu supervisor")
+            time.sleep(1)
+            print("El supervisor al ver que tienes unos mínimos se lo comenta al jefazo y el jefazo oliendo que puede contratar a alguien")
+            time.sleep(1)
+            print("a un coste mucho más bajo que alguien con experiencia y/o mejores estudios te planta el contrato en la cara...")
+            time.sleep(1)
+            print("Enhorabuena, bienvenido al mercado laboral de IT, cobras el mínimo en 12 pagas, pero por algo se empieza... FIN")
+
+        elif seleccion == '5':
+            print("Esperas...")
+            time.sleep(2)
+            print("...")
+            time.sleep(2)
+            print("...")
+            time.sleep(2)
+            print("Sigues esperando...")
+            time.sleep(2)
+            print("...")
+            time.sleep(2)
+            print("...")
+            time.sleep(2)
+            print("Te mueres de hambre esperando. Deberías haber ido al Coviran... FIN")
+
+        reiniciar = input("¿Deseas reiniciar la partida? (s/n): ")
+        if reiniciar.lower() != 's':
+            print("Gracias por jugar. Hasta la próxima.")
+            break
+
+    break
